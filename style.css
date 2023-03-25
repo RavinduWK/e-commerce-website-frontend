@@ -13,29 +13,29 @@ html {
 /* Global Styles */
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   line-height: 64px;
   color: #222;
 }
 
 h2 {
-  font-size: 46px;
+  font-size: 55px;
   line-height: 54px;
   color: #222;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 35px;
   color: #222;
 }
 
 h6 {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 25px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   color: #465b52;
   margin: 15px 0 20px 0;
 }
@@ -77,6 +77,8 @@ button.white {
 body {
   width: 100%;
 }
+
+/* Home Page */
 
 #header {
   display: flex;
@@ -557,6 +559,45 @@ footer .copyright {
   text-align: center;
   margin-top: 20px;
 }
+
+/* Shop Page */
+#page-header {
+  background-image: url("img/banner/b1.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#page-header h2, p{
+  color: white;
+}
+
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+/* Single Product */
+
+/* Blog Page */
+
+/* About Page */
+
+/* Contact Page */
 
 
 @media (max-width: 799px) {
